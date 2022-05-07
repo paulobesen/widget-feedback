@@ -1,5 +1,5 @@
 <h1 align="center">
-  Feedback Widget! <br/>
+  Feedback Widget!
 
   
   ![alt text](https://raw.githubusercontent.com/paulobesen/widget-feedback/main/readme-image.png)
@@ -47,6 +47,7 @@ Feedback Widget é um pequeno widget onde usuário final poderá dar feedback do
 - Para o Mobile, alterar o baseURL dentro de libs/api.
 - Para o Front, alterar/criar o .env.local com `VITE_API_URL=http://localhost:3333`
 - Para o Back, alterar o arquivo schema.prisma com `provider = sqlite` e alterar/criar arquivo .env com `DATABASE_URL="file:./dev.db"`
+- Para emails com backend, é usado o mailtrap.io, então alterar o arquivo `nodemailer-mail-adapter` com as credenciais do smtp do mailtrap
 
 ## Melhorias
 - Mailgun para envio de emails
