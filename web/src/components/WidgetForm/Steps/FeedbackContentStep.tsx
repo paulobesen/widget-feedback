@@ -42,7 +42,7 @@ export function FeedbackContentStep({
       <header>
         <button
           type="button"
-          className="absolute top-5 left-5 text-zinc-900 hover:text-zinc-700 dark:text-zinc-400 dark:hover:text-zinc-100"
+          className="absolute top-5 left-5 text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100"
           onClick={onFeedbackRestartRequested}
         >
           <ArrowLeft weight="bold" className="w-4 h-4" />
@@ -72,7 +72,7 @@ export function FeedbackContentStep({
             screenshot={screenshot}
           />
           <button
-            className="p-2 bg-brand-500 rounded-md border-transparent flex-1 flex justify-center items-center text-sm hover:bg-brand-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-900 focus:ring-brand-300 transition-colors disabled:opacity-50 disabled:hover:bg-brand-500"
+            className="p-2 bg-brand-500 rounded-md border-transparent text-zinc-50 flex-1 flex justify-center items-center text-sm hover:bg-brand-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-900 focus:ring-brand-300 transition-colors disabled:opacity-50 disabled:hover:bg-brand-500"
             disabled={comment.length === 0 || isSendingFeedback}
             type="submit"
           >
