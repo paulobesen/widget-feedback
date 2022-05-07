@@ -1,7 +1,9 @@
 <h1 align="center">
   Feedback Widget!
+  
+  ![alt text](https://raw.githubusercontent.com/paulobesen/widget-feedback/main/readme-image.png)
  
-  Disponível em (https://widget-feedback-tau.vercel.app/)
+  [Acessar projeto](https://widget-feedback-tau.vercel.app/)
 </h1>
 
 <p align="center">
