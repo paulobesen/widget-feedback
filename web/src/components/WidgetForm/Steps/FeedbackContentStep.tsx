@@ -42,7 +42,7 @@ export function FeedbackContentStep({
       <header>
         <button
           type="button"
-          className="absolute top-5 left-5 text-zinc-400 hover:text-zinc-100"
+          className="absolute top-5 left-5 text-zinc-900 hover:text-zinc-700 dark:text-zinc-400 dark:hover:text-zinc-100"
           onClick={onFeedbackRestartRequested}
         >
           <ArrowLeft weight="bold" className="w-4 h-4" />
@@ -61,7 +61,7 @@ export function FeedbackContentStep({
 
       <form className="my-4 w-full" onSubmit={handleSubmitFeedback}>
         <textarea
-          className="min-w-[304px] w-full min-h-[112px] text-sm placeholder-zinc-400 text-zinc-100 border-zinc-600 bg-transparent rounded-md focus:border-brand-500 focus:ring-brand-500 focus:ring-1 resize-none focus:outline-none scrollbar scrollbar-thumb-zinc-700 scrollbar-track-transparent scrollbar-thin"
+          className="min-w-[304px] w-full min-h-[112px] text-sm placeholder-zinc-400 text-zinc-900 dark:text-zinc-100 border-zinc-600 bg-transparent rounded-md focus:border-brand-500 focus:ring-brand-500 focus:ring-1 resize-none focus:outline-none scrollbar scrollbar-thumb-zinc-700 scrollbar-track-transparent scrollbar-thin"
           placeholder="Conte com detalhes o que está acontecendo..."
           onChange={(event) => setComment(event.target.value)}
         />
